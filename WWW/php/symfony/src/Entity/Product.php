@@ -5,19 +5,27 @@ namespace App\Entity;
 use App\Repository\ProductRepository;
 use Doctrine\ORM\Mapping as ORM;
 
-#[ORM\Entity(repositoryClass: ProductRepository::class)]
+/**
+ * @ORM\Entity(repositoryClass=ProductRepository::class)
+ */
 class Product
 {
-    #[ORM\Id]
-    #[ORM\GeneratedValue]
-    #[ORM\Column]
-    private ?int $id = null;
+    /**
+     * @ORM\Id
+     * @ORM\GeneratedValue
+     * @ORM\Column(type="integer")
+     */
+    private $id;
 
-    #[ORM\Column(length: 255)]
-    private ?string $name = null;
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $name;
 
-    #[ORM\Column]
-    private ?int $price = null;
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $Price;
 
     public function getId(): ?int
     {
@@ -36,14 +44,14 @@ class Product
         return $this;
     }
 
-    public function getPrice(): ?int
+    public function getPrice(): ?string
     {
-        return $this->price;
+        return $this->Price;
     }
 
-    public function setPrice(int $price): self
+    public function setPrice(string $Price): self
     {
-        $this->price = $price;
+        $this->Price = $Price;
 
         return $this;
     }
