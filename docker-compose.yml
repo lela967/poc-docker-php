@@ -1,0 +1,151 @@
+version: '3'
+
+services:
+
+  web:
+    container_name: ${PROJECT_NAME}_web
+    image: nginx:1.23.2
+    volumes:
+      - ${WWW_PATH}:/var/www/html
+      - ./logs/nginx:/var/log/nginx
+      - ./conf/nginx/conf.d:/etc/nginx/conf.d
+    ports:
+      - 8000:80
+    depends_on:
+      - php
+      - db
+    # links:
+      # - php
+      # - db
+    networks:
+      - backend
+      - frontend
+    working_dir: /var/www/html
+
+
+  # web2:
+  #   container_name: ${PROJECT_NAME}_web2
+  #   image: web2
+  #   build:
+  #     context: ./conf/apache
+  #     dockerfile: Dockerfile
+  #   volumes:
+  #     - ${WWW_PATH}:/var/www/html
+  #     - ./logs/apache2:/var/log/apache2
+  #   ports:
+  #     - 8000:80
+  #   depends_on:
+  #     - php
+  #     - db
+  #   # links:
+  #   #   - php
+  #   #   - db
+  #   networks:
+  #     - backend
+  #     - frontend
+  #   working_dir: /var/www/html
+
+
+  php:
+    container_name: ${PROJECT_NAME}_php
+    # image: php:7.3.1-fpm
+    build:
+      context: ./conf/php-fpm
+      dockerfile: Dockerfile
+    volumes:
+      - ${WWW_PATH}:/var/www/html
+      - /sys/fs/cgroup:/sys/fs/cgroup:ro
+    expose:
+      - 9000
+#    restart: always
+    networks:
+      - backend
+    tty: true
+    command: bash
+    # entrypoint: php7.4-fpm -F -R
+    working_dir: /var/www/html
+
+
+#   php:
+#     container_name: ${PROJECT_NAME}_php
+#     # image: php:7.3.1-fpm
+#     image: php:8.1.11-fpm-bullseye
+#     volumes:
+#       - ${WWW_PATH}:/var/www/html
+#     expose:
+#       - 9000
+# #    restart: always
+#     networks:
+#       - backend
+#     working_dir: /var/www/html
+
+
+  db:
+    container_name: ${PROJECT_NAME}_mysql
+    image: mysql:8.0.31
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - ${DB_DATAS_PATH}:/var/lib/mysql
+#    restart: always
+    command: --default-authentication-plugin=mysql_native_password
+    networks:
+      - backend
+
+
+  pma:
+    container_name: ${PROJECT_NAME}_pma
+    image: phpmyadmin/phpmyadmin:5.2.0
+    environment:
+      PMA_HOST: db
+    ports:
+      - 8001:80
+#    restart: always
+    networks:
+      - backend
+      - frontend
+
+  composer:
+    container_name: ${PROJECT_NAME}_composer
+    image: composer:2.4.3
+    volumes:
+      - ${WWW_PATH}:/srv/www
+#    restart: always
+    tty: true
+    command: bash
+    working_dir: /srv/www
+
+
+  maildev:
+    container_name: ${PROJECT_NAME}_maildev
+    image: maildev/maildev:2.0.5
+    environment:
+      PMA_HOST: db
+    ports:
+      - 1080:1080
+    expose:
+      - 1025
+#    restart: always
+    networks:
+      - backend
+      - frontend
+
+
+  portainer:
+    container_name: ${PROJECT_NAME}_portainer
+    image: 'portainer/portainer-ce:latest'
+    volumes:
+        - /var/run/docker.sock:/var/run/docker.sock
+        - portainer_data:/data
+    ports:
+        #- "8000:8000"
+        - "9000:9000"
+        - "9443:9443"
+    #restart: always
+
+volumes:
+    portainer_data:
+
+networks:
+  frontend:
+  backend:

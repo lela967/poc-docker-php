@@ -1,0 +1,1059 @@
+2022/10/23 09:45:37 [notice] 1#1: using the "epoll" event method
+2022/10/23 09:45:37 [notice] 1#1: nginx/1.23.2
+2022/10/23 09:45:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/23 09:45:37 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/23 09:45:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/23 09:45:37 [notice] 1#1: start worker processes
+2022/10/23 09:45:37 [notice] 1#1: start worker process 30
+2022/10/23 09:45:37 [notice] 1#1: start worker process 31
+2022/10/23 09:46:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/23 09:46:41 [notice] 30#30: gracefully shutting down
+2022/10/23 09:46:41 [notice] 30#30: exiting
+2022/10/23 09:46:41 [notice] 31#31: gracefully shutting down
+2022/10/23 09:46:41 [notice] 30#30: exit
+2022/10/23 09:46:41 [notice] 31#31: exiting
+2022/10/23 09:46:41 [notice] 31#31: exit
+2022/10/23 09:46:41 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/10/23 09:46:41 [notice] 1#1: worker process 30 exited with code 0
+2022/10/23 09:46:41 [notice] 1#1: worker process 31 exited with code 0
+2022/10/23 09:46:41 [notice] 1#1: exit
+2022/10/23 09:46:52 [notice] 1#1: using the "epoll" event method
+2022/10/23 09:46:52 [notice] 1#1: nginx/1.23.2
+2022/10/23 09:46:52 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/23 09:46:52 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/23 09:46:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/23 09:46:52 [notice] 1#1: start worker processes
+2022/10/23 09:46:52 [notice] 1#1: start worker process 25
+2022/10/23 09:46:52 [notice] 1#1: start worker process 26
+2022/10/23 09:58:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/23 09:58:57 [notice] 25#25: gracefully shutting down
+2022/10/23 09:58:58 [notice] 26#26: gracefully shutting down
+2022/10/23 09:58:57 [notice] 25#25: exiting
+2022/10/23 09:58:57 [notice] 25#25: exit
+2022/10/23 09:58:58 [notice] 26#26: exiting
+2022/10/23 09:58:58 [notice] 26#26: exit
+2022/10/23 09:58:58 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/10/23 09:58:58 [notice] 1#1: worker process 25 exited with code 0
+2022/10/23 09:58:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/23 09:58:58 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/10/23 09:58:58 [notice] 1#1: worker process 26 exited with code 0
+2022/10/23 09:58:58 [notice] 1#1: exit
+2022/10/24 06:50:22 [notice] 1#1: using the "epoll" event method
+2022/10/24 06:50:22 [notice] 1#1: nginx/1.23.2
+2022/10/24 06:50:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 06:50:22 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 06:50:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 06:50:22 [notice] 1#1: start worker processes
+2022/10/24 06:50:22 [notice] 1#1: start worker process 29
+2022/10/24 06:50:22 [notice] 1#1: start worker process 30
+2022/10/24 07:04:16 [error] 29#29: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:18:36 [notice] 437#437: signal process started
+2022/10/24 07:18:36 [notice] 1#1: signal 1 (SIGHUP) received from 437, reconfiguring
+2022/10/24 07:18:36 [notice] 1#1: reconfiguring
+2022/10/24 07:18:36 [notice] 1#1: using the "epoll" event method
+2022/10/24 07:18:36 [notice] 1#1: start worker processes
+2022/10/24 07:18:36 [notice] 1#1: start worker process 438
+2022/10/24 07:18:36 [notice] 1#1: start worker process 439
+2022/10/24 07:18:36 [notice] 29#29: gracefully shutting down
+2022/10/24 07:18:36 [notice] 30#30: gracefully shutting down
+2022/10/24 07:18:36 [notice] 29#29: exiting
+2022/10/24 07:18:36 [notice] 30#30: exiting
+2022/10/24 07:18:36 [notice] 29#29: exit
+2022/10/24 07:18:36 [notice] 30#30: exit
+2022/10/24 07:18:36 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/10/24 07:18:36 [notice] 1#1: worker process 29 exited with code 0
+2022/10/24 07:18:36 [notice] 1#1: worker process 30 exited with code 0
+2022/10/24 07:18:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 07:18:36 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/10/24 07:21:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 07:21:37 [notice] 438#438: gracefully shutting down
+2022/10/24 07:21:37 [notice] 438#438: exiting
+2022/10/24 07:21:37 [notice] 439#439: gracefully shutting down
+2022/10/24 07:21:37 [notice] 438#438: exit
+2022/10/24 07:21:37 [notice] 439#439: exiting
+2022/10/24 07:21:37 [notice] 439#439: exit
+2022/10/24 07:21:37 [notice] 1#1: signal 17 (SIGCHLD) received from 439
+2022/10/24 07:21:37 [notice] 1#1: worker process 438 exited with code 0
+2022/10/24 07:21:37 [notice] 1#1: worker process 439 exited with code 0
+2022/10/24 07:21:37 [notice] 1#1: exit
+2022/10/24 07:25:59 [notice] 1#1: using the "epoll" event method
+2022/10/24 07:25:59 [notice] 1#1: nginx/1.23.2
+2022/10/24 07:25:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 07:25:59 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 07:25:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 07:25:59 [notice] 1#1: start worker processes
+2022/10/24 07:25:59 [notice] 1#1: start worker process 29
+2022/10/24 07:25:59 [notice] 1#1: start worker process 30
+2022/10/24 07:29:07 [error] 29#29: *3 open() "/usr/share/nginx/html/public" failed (2: No such file or directory), client: 172.31.0.1, server: localhost, request: "GET /public HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:29:23 [error] 29#29: *3 open() "/usr/share/nginx/html/public/index.html" failed (2: No such file or directory), client: 172.31.0.1, server: localhost, request: "GET /public/index.html HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:30:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 07:30:13 [notice] 30#30: gracefully shutting down
+2022/10/24 07:30:13 [notice] 30#30: exiting
+2022/10/24 07:30:13 [notice] 29#29: gracefully shutting down
+2022/10/24 07:30:13 [notice] 29#29: exiting
+2022/10/24 07:30:13 [notice] 30#30: exit
+2022/10/24 07:30:13 [notice] 29#29: exit
+2022/10/24 07:30:13 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/10/24 07:30:13 [notice] 1#1: worker process 29 exited with code 0
+2022/10/24 07:30:13 [notice] 1#1: worker process 30 exited with code 0
+2022/10/24 07:30:13 [notice] 1#1: exit
+2022/10/24 07:30:34 [notice] 1#1: using the "epoll" event method
+2022/10/24 07:30:34 [notice] 1#1: nginx/1.23.2
+2022/10/24 07:30:34 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 07:30:34 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 07:30:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 07:30:34 [notice] 1#1: start worker processes
+2022/10/24 07:30:34 [notice] 1#1: start worker process 20
+2022/10/24 07:30:34 [notice] 1#1: start worker process 21
+2022/10/24 07:31:16 [error] 20#20: *1 open() "/var/www/html/public/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:31:16 [error] 20#20: *1 open() "/var/www/html/public/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:31:23 [error] 20#20: *1 open() "/var/www/html/public/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:31:23 [error] 20#20: *1 open() "/var/www/html/public/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:31:23 [error] 20#20: *1 open() "/var/www/html/public/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:31:23 [error] 20#20: *1 open() "/var/www/html/public/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:31:24 [error] 20#20: *1 open() "/var/www/html/public/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:31:24 [error] 20#20: *1 open() "/var/www/html/public/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:34:27 [notice] 32#32: signal process started
+2022/10/24 07:34:27 [notice] 1#1: signal 1 (SIGHUP) received from 32, reconfiguring
+2022/10/24 07:34:27 [notice] 1#1: reconfiguring
+2022/10/24 07:34:27 [notice] 1#1: using the "epoll" event method
+2022/10/24 07:34:27 [notice] 1#1: start worker processes
+2022/10/24 07:34:27 [notice] 1#1: start worker process 33
+2022/10/24 07:34:27 [notice] 1#1: start worker process 34
+2022/10/24 07:34:27 [notice] 21#21: gracefully shutting down
+2022/10/24 07:34:27 [notice] 21#21: exiting
+2022/10/24 07:34:27 [notice] 20#20: gracefully shutting down
+2022/10/24 07:34:27 [notice] 21#21: exit
+2022/10/24 07:34:27 [notice] 20#20: exiting
+2022/10/24 07:34:27 [notice] 20#20: exit
+2022/10/24 07:34:27 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/24 07:34:27 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 07:34:27 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 07:34:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 07:34:27 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/10/24 07:34:29 [error] 33#33: *4 open() "/var/www/html/public/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:34:29 [error] 33#33: *4 open() "/var/www/html/public/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:34:29 [error] 33#33: *4 open() "/var/www/html/public/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:34:29 [error] 33#33: *4 open() "/var/www/html/public/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:34:29 [error] 33#33: *4 open() "/var/www/html/public/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:34:29 [error] 33#33: *4 open() "/var/www/html/public/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:34:29 [error] 33#33: *4 open() "/var/www/html/public/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:34:29 [error] 33#33: *4 open() "/var/www/html/public/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/10/24 07:34:32 [error] 33#33: *4 open() "/var/www/html/public/php" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /php HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:34:32 [error] 33#33: *4 open() "/var/www/html/public/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /php HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:38:49 [notice] 42#42: signal process started
+2022/10/24 07:38:49 [notice] 1#1: signal 1 (SIGHUP) received from 42, reconfiguring
+2022/10/24 07:38:49 [notice] 1#1: reconfiguring
+2022/10/24 07:38:49 [notice] 1#1: using the "epoll" event method
+2022/10/24 07:38:49 [notice] 1#1: start worker processes
+2022/10/24 07:38:49 [notice] 1#1: start worker process 43
+2022/10/24 07:38:49 [notice] 1#1: start worker process 44
+2022/10/24 07:38:49 [notice] 34#34: gracefully shutting down
+2022/10/24 07:38:49 [notice] 34#34: exiting
+2022/10/24 07:38:49 [notice] 33#33: gracefully shutting down
+2022/10/24 07:38:49 [notice] 34#34: exit
+2022/10/24 07:38:49 [notice] 33#33: exiting
+2022/10/24 07:38:49 [notice] 33#33: exit
+2022/10/24 07:38:49 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/10/24 07:38:49 [notice] 1#1: worker process 34 exited with code 0
+2022/10/24 07:38:49 [notice] 1#1: worker process 33 exited with code 0
+2022/10/24 07:38:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 07:38:49 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/10/24 07:38:52 [error] 43#43: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:38:52 [error] 43#43: *7 open() "/var/www/html/public/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/index.php"
+2022/10/24 07:38:52 [error] 43#43: *7 open() "/var/www/html/public/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/index.php"
+2022/10/24 07:39:23 [error] 43#43: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:39:40 [error] 43#43: *7 open() "/var/www/html/public/php" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /php HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:39:40 [error] 43#43: *7 open() "/var/www/html/public/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /php HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:39:48 [error] 43#43: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:40:26 [error] 43#43: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:40:27 [error] 43#43: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:40:27 [error] 43#43: *7 open() "/var/www/html/public/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/index.php"
+2022/10/24 07:40:27 [error] 43#43: *7 open() "/var/www/html/public/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/index.php"
+2022/10/24 07:40:28 [error] 43#43: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:40:28 [error] 43#43: *7 open() "/var/www/html/public/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/index.php"
+2022/10/24 07:40:28 [error] 43#43: *7 open() "/var/www/html/public/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/index.php"
+2022/10/24 07:40:28 [error] 43#43: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:40:28 [error] 43#43: *7 open() "/var/www/html/public/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/index.php"
+2022/10/24 07:40:28 [error] 43#43: *7 open() "/var/www/html/public/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/index.php"
+2022/10/24 07:41:26 [notice] 46#46: signal process started
+2022/10/24 07:41:26 [notice] 1#1: signal 1 (SIGHUP) received from 46, reconfiguring
+2022/10/24 07:41:26 [notice] 1#1: reconfiguring
+2022/10/24 07:41:26 [notice] 1#1: using the "epoll" event method
+2022/10/24 07:41:26 [notice] 1#1: start worker processes
+2022/10/24 07:41:26 [notice] 1#1: start worker process 47
+2022/10/24 07:41:26 [notice] 1#1: start worker process 48
+2022/10/24 07:41:26 [notice] 43#43: gracefully shutting down
+2022/10/24 07:41:26 [notice] 44#44: gracefully shutting down
+2022/10/24 07:41:26 [notice] 43#43: exiting
+2022/10/24 07:41:26 [notice] 43#43: exit
+2022/10/24 07:41:26 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2022/10/24 07:41:26 [notice] 1#1: worker process 43 exited with code 0
+2022/10/24 07:41:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 07:41:26 [notice] 44#44: exiting
+2022/10/24 07:41:26 [notice] 44#44: exit
+2022/10/24 07:41:26 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2022/10/24 07:41:26 [notice] 1#1: worker process 44 exited with code 0
+2022/10/24 07:41:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 07:41:30 [error] 47#47: *17 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:00 [error] 47#47: *17 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:48 [notice] 49#49: signal process started
+2022/10/24 07:42:49 [notice] 1#1: signal 1 (SIGHUP) received from 49, reconfiguring
+2022/10/24 07:42:49 [notice] 1#1: reconfiguring
+2022/10/24 07:42:49 [notice] 1#1: using the "epoll" event method
+2022/10/24 07:42:49 [notice] 1#1: start worker processes
+2022/10/24 07:42:49 [notice] 1#1: start worker process 50
+2022/10/24 07:42:49 [notice] 1#1: start worker process 51
+2022/10/24 07:42:49 [notice] 47#47: gracefully shutting down
+2022/10/24 07:42:49 [notice] 48#48: gracefully shutting down
+2022/10/24 07:42:49 [notice] 48#48: exiting
+2022/10/24 07:42:49 [notice] 47#47: exiting
+2022/10/24 07:42:49 [notice] 47#47: exit
+2022/10/24 07:42:49 [notice] 48#48: exit
+2022/10/24 07:42:49 [notice] 1#1: signal 17 (SIGCHLD) received from 48
+2022/10/24 07:42:49 [notice] 1#1: worker process 47 exited with code 0
+2022/10/24 07:42:49 [notice] 1#1: worker process 48 exited with code 0
+2022/10/24 07:42:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 07:42:49 [notice] 1#1: signal 17 (SIGCHLD) received from 47
+2022/10/24 07:42:52 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:53 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:54 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:54 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:54 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:54 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:54 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:54 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:55 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:55 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:55 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:55 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:55 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:55 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:55 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:55 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:55 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:55 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:55 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:55 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:55 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:55 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:55 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:56 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:56 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:56 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:56 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:56 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:56 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:56 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:56 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:56 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:56 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:57 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:57 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:58 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:42:58 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:42:58 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:43:06 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:43:29 [error] 50#50: *21 directory index of "/var/www/html/php/" is forbidden, client: 172.31.0.1, server: , request: "GET /php/ HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:43:37 [error] 50#50: *21 directory index of "/var/www/html/php/" is forbidden, client: 172.31.0.1, server: , request: "GET /php/ HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:43:38 [error] 50#50: *21 directory index of "/var/www/html/php/" is forbidden, client: 172.31.0.1, server: , request: "GET /php/ HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:43:38 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:38 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:38 [error] 50#50: *21 directory index of "/var/www/html/php/" is forbidden, client: 172.31.0.1, server: , request: "GET /php/ HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:43:38 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:38 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:38 [error] 50#50: *21 directory index of "/var/www/html/php/" is forbidden, client: 172.31.0.1, server: , request: "GET /php/ HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:43:38 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:38 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:43 [error] 50#50: *21 directory index of "/var/www/html/php/" is forbidden, client: 172.31.0.1, server: , request: "GET /php/ HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:43:43 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:43 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:44 [error] 50#50: *21 directory index of "/var/www/html/php/" is forbidden, client: 172.31.0.1, server: , request: "GET /php/ HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:43:44 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:44 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:44 [error] 50#50: *21 directory index of "/var/www/html/php/" is forbidden, client: 172.31.0.1, server: , request: "GET /php/ HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:43:44 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:44 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:44 [error] 50#50: *21 directory index of "/var/www/html/php/" is forbidden, client: 172.31.0.1, server: , request: "GET /php/ HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:43:44 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:44 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:44 [error] 50#50: *21 directory index of "/var/www/html/php/" is forbidden, client: 172.31.0.1, server: , request: "GET /php/ HTTP/1.1", host: "localhost:8000"
+2022/10/24 07:43:44 [error] 50#50: *21 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:44 [error] 50#50: *21 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/"
+2022/10/24 07:43:49 [error] 50#50: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:44:43 [notice] 52#52: signal process started
+2022/10/24 07:44:44 [notice] 1#1: signal 1 (SIGHUP) received from 52, reconfiguring
+2022/10/24 07:44:44 [notice] 1#1: reconfiguring
+2022/10/24 07:44:44 [notice] 1#1: using the "epoll" event method
+2022/10/24 07:44:44 [notice] 1#1: start worker processes
+2022/10/24 07:44:44 [notice] 1#1: start worker process 53
+2022/10/24 07:44:44 [notice] 1#1: start worker process 54
+2022/10/24 07:44:44 [notice] 51#51: gracefully shutting down
+2022/10/24 07:44:44 [notice] 50#50: gracefully shutting down
+2022/10/24 07:44:44 [notice] 51#51: exiting
+2022/10/24 07:44:44 [notice] 50#50: exiting
+2022/10/24 07:44:44 [notice] 50#50: exit
+2022/10/24 07:44:44 [notice] 51#51: exit
+2022/10/24 07:44:44 [notice] 1#1: signal 17 (SIGCHLD) received from 50
+2022/10/24 07:44:44 [notice] 1#1: worker process 50 exited with code 0
+2022/10/24 07:44:44 [notice] 1#1: worker process 51 exited with code 0
+2022/10/24 07:44:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 07:44:44 [notice] 1#1: signal 17 (SIGCHLD) received from 51
+2022/10/24 07:44:45 [error] 53#53: *39 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:44:45 [error] 53#53: *39 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:44:45 [error] 53#53: *39 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:44:46 [error] 53#53: *39 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:44:46 [error] 53#53: *39 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:44:46 [error] 53#53: *39 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:44:51 [error] 53#53: *39 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:45:13 [notice] 55#55: signal process started
+2022/10/24 07:45:13 [notice] 1#1: signal 1 (SIGHUP) received from 55, reconfiguring
+2022/10/24 07:45:13 [notice] 1#1: reconfiguring
+2022/10/24 07:45:13 [notice] 1#1: using the "epoll" event method
+2022/10/24 07:45:13 [notice] 1#1: start worker processes
+2022/10/24 07:45:13 [notice] 1#1: start worker process 56
+2022/10/24 07:45:13 [notice] 1#1: start worker process 57
+2022/10/24 07:45:13 [notice] 53#53: gracefully shutting down
+2022/10/24 07:45:13 [notice] 54#54: gracefully shutting down
+2022/10/24 07:45:13 [notice] 53#53: exiting
+2022/10/24 07:45:13 [notice] 53#53: exit
+2022/10/24 07:45:13 [notice] 1#1: signal 17 (SIGCHLD) received from 53
+2022/10/24 07:45:13 [notice] 1#1: worker process 53 exited with code 0
+2022/10/24 07:45:13 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 07:45:14 [error] 54#54: *41 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:45:14 [notice] 54#54: exiting
+2022/10/24 07:45:14 [notice] 54#54: exit
+2022/10/24 07:45:14 [error] 56#56: *45 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/test.php"
+2022/10/24 07:45:14 [error] 56#56: *45 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/test.php"
+2022/10/24 07:45:14 [notice] 1#1: signal 17 (SIGCHLD) received from 54
+2022/10/24 07:45:14 [notice] 1#1: worker process 54 exited with code 0
+2022/10/24 07:45:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 07:45:24 [error] 56#56: *45 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 07:46:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 07:46:23 [notice] 57#57: gracefully shutting down
+2022/10/24 07:46:23 [notice] 56#56: gracefully shutting down
+2022/10/24 07:46:23 [notice] 56#56: exiting
+2022/10/24 07:46:23 [notice] 56#56: exit
+2022/10/24 07:46:23 [notice] 1#1: signal 17 (SIGCHLD) received from 56
+2022/10/24 07:46:23 [notice] 1#1: worker process 56 exited with code 0
+2022/10/24 07:46:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 07:46:24 [notice] 57#57: exiting
+2022/10/24 07:46:24 [notice] 57#57: exit
+2022/10/24 07:46:24 [notice] 1#1: signal 17 (SIGCHLD) received from 57
+2022/10/24 07:46:24 [notice] 1#1: worker process 57 exited with code 0
+2022/10/24 07:46:24 [notice] 1#1: exit
+2022/10/24 07:52:10 [notice] 1#1: using the "epoll" event method
+2022/10/24 07:52:10 [notice] 1#1: nginx/1.23.2
+2022/10/24 07:52:10 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 07:52:10 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 07:52:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 07:52:10 [notice] 1#1: start worker processes
+2022/10/24 07:52:10 [notice] 1#1: start worker process 20
+2022/10/24 07:52:10 [notice] 1#1: start worker process 21
+2022/10/24 07:52:29 [error] 20#20: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 07:52:29 [error] 20#20: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:52:29 [error] 20#20: *1 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:53:25 [error] 20#20: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 07:53:26 [error] 20#20: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 07:53:26 [error] 20#20: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:53:26 [error] 20#20: *1 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:55:06 [notice] 31#31: signal process started
+2022/10/24 07:55:06 [notice] 1#1: signal 1 (SIGHUP) received from 31, reconfiguring
+2022/10/24 07:55:06 [notice] 1#1: reconfiguring
+2022/10/24 07:55:06 [notice] 1#1: using the "epoll" event method
+2022/10/24 07:55:06 [notice] 1#1: start worker processes
+2022/10/24 07:55:06 [notice] 1#1: start worker process 32
+2022/10/24 07:55:06 [notice] 1#1: start worker process 33
+2022/10/24 07:55:06 [notice] 20#20: gracefully shutting down
+2022/10/24 07:55:06 [notice] 20#20: exiting
+2022/10/24 07:55:06 [notice] 21#21: gracefully shutting down
+2022/10/24 07:55:06 [notice] 20#20: exit
+2022/10/24 07:55:06 [notice] 21#21: exiting
+2022/10/24 07:55:06 [notice] 21#21: exit
+2022/10/24 07:55:06 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/24 07:55:06 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 07:55:06 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 07:55:06 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 07:55:06 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/10/24 07:55:12 [error] 32#32: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 07:55:13 [error] 32#32: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 07:55:14 [error] 32#32: *6 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:55:14 [error] 32#32: *6 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:55:14 [error] 32#32: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 07:55:14 [error] 32#32: *6 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:55:14 [error] 32#32: *6 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:55:14 [error] 32#32: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 07:55:15 [error] 32#32: *6 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:55:15 [error] 32#32: *6 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:55:15 [error] 32#32: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 07:55:15 [error] 32#32: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 07:55:15 [error] 33#33: *8 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:55:15 [error] 33#33: *8 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:55:15 [error] 32#32: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 07:55:15 [error] 33#33: *15 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:55:15 [error] 33#33: *15 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:55:15 [error] 33#33: *15 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 07:55:15 [error] 33#33: *15 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 07:55:15 [error] 32#32: *6 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:55:15 [error] 32#32: *6 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:55:15 [error] 32#32: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 07:55:15 [error] 32#32: *6 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:55:15 [error] 32#32: *6 open() "/var/www/html/404.html" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/php/test.php"
+2022/10/24 07:55:20 [error] 32#32: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:01:32 [notice] 34#34: signal process started
+2022/10/24 08:01:32 [notice] 1#1: signal 1 (SIGHUP) received from 34, reconfiguring
+2022/10/24 08:01:32 [notice] 1#1: reconfiguring
+2022/10/24 08:01:32 [notice] 1#1: using the "epoll" event method
+2022/10/24 08:01:32 [notice] 1#1: start worker processes
+2022/10/24 08:01:32 [notice] 1#1: start worker process 35
+2022/10/24 08:01:32 [notice] 1#1: start worker process 36
+2022/10/24 08:01:32 [notice] 32#32: gracefully shutting down
+2022/10/24 08:01:32 [notice] 32#32: exiting
+2022/10/24 08:01:32 [notice] 33#33: gracefully shutting down
+2022/10/24 08:01:32 [notice] 33#33: exiting
+2022/10/24 08:01:32 [notice] 32#32: exit
+2022/10/24 08:01:32 [notice] 33#33: exit
+2022/10/24 08:01:32 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/10/24 08:01:32 [notice] 1#1: worker process 32 exited with code 0
+2022/10/24 08:01:32 [notice] 1#1: worker process 33 exited with code 0
+2022/10/24 08:01:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 08:01:32 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/10/24 08:01:38 [error] 35#35: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:01:40 [error] 35#35: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:01:41 [error] 35#35: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:01:41 [error] 35#35: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:01:48 [error] 35#35: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php.test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:01:53 [error] 35#35: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:01:58 [error] 35#35: *20 directory index of "/var/www/html/php/" is forbidden, client: 172.31.0.1, server: , request: "GET /php/ HTTP/1.1", host: "localhost:8000"
+2022/10/24 08:02:03 [error] 35#35: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:02:05 [error] 35#35: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:02:05 [error] 35#35: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:02:05 [error] 35#35: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:02:05 [error] 35#35: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:02:43 [error] 35#35: *20 directory index of "/var/www/html/php/" is forbidden, client: 172.31.0.1, server: , request: "GET /php/ HTTP/1.1", host: "localhost:8000"
+2022/10/24 08:02:44 [error] 35#35: *20 directory index of "/var/www/html/php/" is forbidden, client: 172.31.0.1, server: , request: "GET /php/ HTTP/1.1", host: "localhost:8000"
+2022/10/24 08:02:45 [error] 35#35: *20 directory index of "/var/www/html/php/" is forbidden, client: 172.31.0.1, server: , request: "GET /php/ HTTP/1.1", host: "localhost:8000"
+2022/10/24 08:02:51 [error] 35#35: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:02:53 [error] 35#35: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:02:53 [error] 35#35: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:02:53 [error] 35#35: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:12:34 [error] 35#35: *38 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:12:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 08:12:44 [notice] 36#36: gracefully shutting down
+2022/10/24 08:12:44 [notice] 36#36: exiting
+2022/10/24 08:12:44 [notice] 35#35: gracefully shutting down
+2022/10/24 08:12:44 [notice] 36#36: exit
+2022/10/24 08:12:44 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/10/24 08:12:44 [notice] 1#1: worker process 36 exited with code 0
+2022/10/24 08:12:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 08:13:29 [notice] 1#1: using the "epoll" event method
+2022/10/24 08:13:29 [notice] 1#1: nginx/1.23.2
+2022/10/24 08:13:29 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 08:13:29 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 08:13:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 08:13:29 [notice] 1#1: start worker processes
+2022/10/24 08:13:29 [notice] 1#1: start worker process 22
+2022/10/24 08:13:29 [notice] 1#1: start worker process 23
+2022/10/24 08:13:51 [error] 22#22: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:13:53 [error] 22#22: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:13:54 [error] 22#22: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:13:54 [error] 22#22: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:13:55 [error] 22#22: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:14:33 [notice] 31#31: signal process started
+2022/10/24 08:14:33 [notice] 1#1: signal 1 (SIGHUP) received from 31, reconfiguring
+2022/10/24 08:14:33 [notice] 1#1: reconfiguring
+2022/10/24 08:14:33 [notice] 1#1: using the "epoll" event method
+2022/10/24 08:14:33 [notice] 1#1: start worker processes
+2022/10/24 08:14:33 [notice] 1#1: start worker process 32
+2022/10/24 08:14:33 [notice] 1#1: start worker process 33
+2022/10/24 08:14:33 [notice] 23#23: gracefully shutting down
+2022/10/24 08:14:33 [notice] 22#22: gracefully shutting down
+2022/10/24 08:14:33 [notice] 22#22: exiting
+2022/10/24 08:14:33 [notice] 22#22: exit
+2022/10/24 08:14:33 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/24 08:14:33 [notice] 1#1: worker process 22 exited with code 0
+2022/10/24 08:14:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 08:14:35 [error] 23#23: *3 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:14:35 [notice] 23#23: exiting
+2022/10/24 08:14:35 [notice] 23#23: exit
+2022/10/24 08:14:35 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/24 08:14:35 [notice] 1#1: worker process 23 exited with code 0
+2022/10/24 08:14:35 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 08:14:36 [error] 32#32: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:14:41 [error] 32#32: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:14:45 [error] 32#32: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:14:47 [error] 32#32: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:14:47 [error] 32#32: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:14:47 [error] 32#32: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:14:47 [error] 32#32: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:14:48 [error] 32#32: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:15:20 [error] 32#32: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:15:23 [error] 32#32: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:15:23 [error] 32#32: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:15:23 [error] 32#32: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:15:24 [error] 32#32: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:17:17 [error] 32#32: *24 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:18:21 [notice] 35#35: signal process started
+2022/10/24 08:18:21 [notice] 1#1: signal 1 (SIGHUP) received from 35, reconfiguring
+2022/10/24 08:18:21 [notice] 1#1: reconfiguring
+2022/10/24 08:18:21 [notice] 1#1: using the "epoll" event method
+2022/10/24 08:18:21 [notice] 1#1: start worker processes
+2022/10/24 08:18:21 [notice] 1#1: start worker process 36
+2022/10/24 08:18:21 [notice] 1#1: start worker process 37
+2022/10/24 08:18:21 [notice] 32#32: gracefully shutting down
+2022/10/24 08:18:21 [notice] 33#33: gracefully shutting down
+2022/10/24 08:18:21 [notice] 33#33: exiting
+2022/10/24 08:18:21 [notice] 32#32: exiting
+2022/10/24 08:18:21 [notice] 33#33: exit
+2022/10/24 08:18:21 [notice] 32#32: exit
+2022/10/24 08:18:21 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/10/24 08:18:21 [notice] 1#1: worker process 33 exited with code 0
+2022/10/24 08:18:21 [notice] 1#1: worker process 32 exited with code 0
+2022/10/24 08:18:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 08:18:21 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/10/24 08:18:25 [error] 36#36: *27 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:18:42 [error] 36#36: *27 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /php/index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:19:59 [notice] 38#38: signal process started
+2022/10/24 08:19:59 [notice] 1#1: signal 1 (SIGHUP) received from 38, reconfiguring
+2022/10/24 08:19:59 [notice] 1#1: reconfiguring
+2022/10/24 08:19:59 [notice] 1#1: using the "epoll" event method
+2022/10/24 08:19:59 [notice] 1#1: start worker processes
+2022/10/24 08:19:59 [notice] 1#1: start worker process 39
+2022/10/24 08:19:59 [notice] 1#1: start worker process 40
+2022/10/24 08:19:59 [notice] 36#36: gracefully shutting down
+2022/10/24 08:19:59 [notice] 37#37: gracefully shutting down
+2022/10/24 08:19:59 [notice] 37#37: exiting
+2022/10/24 08:19:59 [notice] 36#36: exiting
+2022/10/24 08:19:59 [notice] 37#37: exit
+2022/10/24 08:19:59 [notice] 36#36: exit
+2022/10/24 08:19:59 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/10/24 08:19:59 [notice] 1#1: worker process 36 exited with code 0
+2022/10/24 08:19:59 [notice] 1#1: worker process 37 exited with code 0
+2022/10/24 08:19:59 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 08:20:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 08:20:07 [notice] 39#39: gracefully shutting down
+2022/10/24 08:20:07 [notice] 39#39: exiting
+2022/10/24 08:20:07 [notice] 40#40: gracefully shutting down
+2022/10/24 08:20:07 [notice] 39#39: exit
+2022/10/24 08:20:07 [notice] 40#40: exiting
+2022/10/24 08:20:07 [notice] 40#40: exit
+2022/10/24 08:20:07 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2022/10/24 08:20:07 [notice] 1#1: worker process 39 exited with code 0
+2022/10/24 08:20:07 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 08:20:07 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2022/10/24 08:20:07 [notice] 1#1: worker process 40 exited with code 0
+2022/10/24 08:20:07 [notice] 1#1: exit
+2022/10/24 08:22:58 [notice] 1#1: using the "epoll" event method
+2022/10/24 08:22:58 [notice] 1#1: nginx/1.23.2
+2022/10/24 08:22:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 08:22:58 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 08:22:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 08:22:58 [notice] 1#1: start worker processes
+2022/10/24 08:22:58 [notice] 1#1: start worker process 20
+2022/10/24 08:22:58 [notice] 1#1: start worker process 21
+2022/10/24 08:23:17 [error] 20#20: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:23:20 [error] 20#20: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.31.0.1, server: , request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 08:28:11 [notice] 415#415: signal process started
+2022/10/24 08:28:11 [notice] 1#1: signal 1 (SIGHUP) received from 415, reconfiguring
+2022/10/24 08:28:11 [notice] 1#1: reconfiguring
+2022/10/24 08:28:11 [notice] 1#1: using the "epoll" event method
+2022/10/24 08:28:11 [notice] 1#1: start worker processes
+2022/10/24 08:28:11 [notice] 1#1: start worker process 416
+2022/10/24 08:28:11 [notice] 1#1: start worker process 417
+2022/10/24 08:28:11 [notice] 20#20: gracefully shutting down
+2022/10/24 08:28:11 [notice] 20#20: exiting
+2022/10/24 08:28:11 [notice] 21#21: gracefully shutting down
+2022/10/24 08:28:11 [notice] 21#21: exiting
+2022/10/24 08:28:11 [notice] 20#20: exit
+2022/10/24 08:28:11 [notice] 21#21: exit
+2022/10/24 08:28:11 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/24 08:28:11 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 08:28:11 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 08:28:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 08:28:11 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/10/24 08:56:57 [notice] 421#421: signal process started
+2022/10/24 08:56:57 [notice] 1#1: signal 1 (SIGHUP) received from 421, reconfiguring
+2022/10/24 08:56:57 [notice] 1#1: reconfiguring
+2022/10/24 08:56:57 [notice] 1#1: using the "epoll" event method
+2022/10/24 08:56:57 [notice] 1#1: start worker processes
+2022/10/24 08:56:57 [notice] 1#1: start worker process 422
+2022/10/24 08:56:57 [notice] 1#1: start worker process 423
+2022/10/24 08:56:57 [notice] 416#416: gracefully shutting down
+2022/10/24 08:56:57 [notice] 417#417: gracefully shutting down
+2022/10/24 08:56:57 [notice] 417#417: exiting
+2022/10/24 08:56:57 [notice] 416#416: exiting
+2022/10/24 08:56:57 [notice] 416#416: exit
+2022/10/24 08:56:57 [notice] 417#417: exit
+2022/10/24 08:56:57 [notice] 1#1: signal 17 (SIGCHLD) received from 417
+2022/10/24 08:56:57 [notice] 1#1: worker process 416 exited with code 0
+2022/10/24 08:56:57 [notice] 1#1: worker process 417 exited with code 0
+2022/10/24 08:56:57 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 08:56:57 [notice] 1#1: signal 17 (SIGCHLD) received from 416
+2022/10/24 09:21:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 09:21:56 [notice] 423#423: gracefully shutting down
+2022/10/24 09:21:56 [notice] 422#422: gracefully shutting down
+2022/10/24 09:21:56 [notice] 423#423: exiting
+2022/10/24 09:21:56 [notice] 422#422: exiting
+2022/10/24 09:21:56 [notice] 423#423: exit
+2022/10/24 09:21:56 [notice] 422#422: exit
+2022/10/24 09:21:56 [notice] 1#1: signal 17 (SIGCHLD) received from 423
+2022/10/24 09:21:56 [notice] 1#1: worker process 423 exited with code 0
+2022/10/24 09:21:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 09:21:56 [notice] 1#1: signal 17 (SIGCHLD) received from 422
+2022/10/24 09:21:56 [notice] 1#1: worker process 422 exited with code 0
+2022/10/24 09:21:56 [notice] 1#1: exit
+2022/10/24 09:22:32 [notice] 1#1: using the "epoll" event method
+2022/10/24 09:22:32 [notice] 1#1: nginx/1.23.2
+2022/10/24 09:22:32 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 09:22:32 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 09:22:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 09:22:32 [notice] 1#1: start worker processes
+2022/10/24 09:22:32 [notice] 1#1: start worker process 21
+2022/10/24 09:22:32 [notice] 1#1: start worker process 22
+2022/10/24 09:24:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 09:24:44 [notice] 21#21: gracefully shutting down
+2022/10/24 09:24:44 [notice] 21#21: exiting
+2022/10/24 09:24:44 [notice] 22#22: gracefully shutting down
+2022/10/24 09:24:44 [notice] 21#21: exit
+2022/10/24 09:24:44 [notice] 22#22: exiting
+2022/10/24 09:24:44 [notice] 22#22: exit
+2022/10/24 09:24:44 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/24 09:24:44 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 09:24:44 [notice] 1#1: worker process 22 exited with code 0
+2022/10/24 09:24:44 [notice] 1#1: exit
+2022/10/24 09:25:09 [notice] 1#1: using the "epoll" event method
+2022/10/24 09:25:09 [notice] 1#1: nginx/1.23.2
+2022/10/24 09:25:09 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 09:25:09 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 09:25:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 09:25:09 [notice] 1#1: start worker processes
+2022/10/24 09:25:09 [notice] 1#1: start worker process 20
+2022/10/24 09:25:09 [notice] 1#1: start worker process 21
+2022/10/24 13:04:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 13:04:42 [notice] 20#20: gracefully shutting down
+2022/10/24 13:04:42 [notice] 21#21: gracefully shutting down
+2022/10/24 13:04:42 [notice] 20#20: exiting
+2022/10/24 13:04:42 [notice] 21#21: exiting
+2022/10/24 13:04:42 [notice] 20#20: exit
+2022/10/24 13:04:42 [notice] 21#21: exit
+2022/10/24 13:04:43 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/10/24 13:04:43 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 13:04:43 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 13:04:43 [notice] 1#1: exit
+2022/10/24 13:11:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/poc-docker-php.conf:33
+2022/10/24 13:12:58 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/poc-docker-php.conf:33
+2022/10/24 13:13:51 [notice] 1#1: using the "epoll" event method
+2022/10/24 13:13:51 [notice] 1#1: nginx/1.23.2
+2022/10/24 13:13:51 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 13:13:51 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 13:13:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 13:13:51 [notice] 1#1: start worker processes
+2022/10/24 13:13:51 [notice] 1#1: start worker process 22
+2022/10/24 13:13:51 [notice] 1#1: start worker process 23
+2022/10/24 13:22:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 13:22:22 [notice] 22#22: gracefully shutting down
+2022/10/24 13:22:22 [notice] 22#22: exiting
+2022/10/24 13:22:22 [notice] 23#23: gracefully shutting down
+2022/10/24 13:22:22 [notice] 22#22: exit
+2022/10/24 13:22:22 [notice] 23#23: exiting
+2022/10/24 13:22:22 [notice] 23#23: exit
+2022/10/24 13:22:22 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/24 13:22:22 [notice] 1#1: worker process 22 exited with code 0
+2022/10/24 13:22:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 13:22:22 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/24 13:22:22 [notice] 1#1: worker process 23 exited with code 0
+2022/10/24 13:22:22 [notice] 1#1: exit
+2022/10/24 13:22:51 [notice] 1#1: using the "epoll" event method
+2022/10/24 13:22:51 [notice] 1#1: nginx/1.23.2
+2022/10/24 13:22:51 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 13:22:51 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 13:22:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 13:22:51 [notice] 1#1: start worker processes
+2022/10/24 13:22:51 [notice] 1#1: start worker process 20
+2022/10/24 13:22:51 [notice] 1#1: start worker process 21
+2022/10/24 14:55:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 14:55:14 [notice] 20#20: gracefully shutting down
+2022/10/24 14:55:14 [notice] 21#21: gracefully shutting down
+2022/10/24 14:55:14 [notice] 20#20: exiting
+2022/10/24 14:55:14 [notice] 21#21: exiting
+2022/10/24 14:55:14 [notice] 20#20: exit
+2022/10/24 14:55:14 [notice] 21#21: exit
+2022/10/24 14:55:14 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/10/24 14:55:14 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 14:55:15 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 14:55:15 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/24 14:55:15 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 14:55:15 [notice] 1#1: exit
+2022/10/24 14:55:48 [notice] 1#1: using the "epoll" event method
+2022/10/24 14:55:48 [notice] 1#1: nginx/1.23.2
+2022/10/24 14:55:48 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 14:55:48 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 14:55:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 14:55:48 [notice] 1#1: start worker processes
+2022/10/24 14:55:48 [notice] 1#1: start worker process 20
+2022/10/24 14:55:48 [notice] 1#1: start worker process 21
+2022/10/24 14:59:21 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 15:14:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 15:14:20 [notice] 20#20: gracefully shutting down
+2022/10/24 15:14:20 [notice] 21#21: gracefully shutting down
+2022/10/24 15:14:20 [notice] 20#20: exiting
+2022/10/24 15:14:20 [notice] 21#21: exiting
+2022/10/24 15:14:20 [notice] 21#21: exit
+2022/10/24 15:14:20 [notice] 20#20: exit
+2022/10/24 15:14:20 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/24 15:14:20 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 15:14:20 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 15:14:20 [notice] 1#1: exit
+2022/10/24 15:14:44 [notice] 1#1: using the "epoll" event method
+2022/10/24 15:14:44 [notice] 1#1: nginx/1.23.2
+2022/10/24 15:14:44 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 15:14:44 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 15:14:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 15:14:44 [notice] 1#1: start worker processes
+2022/10/24 15:14:44 [notice] 1#1: start worker process 21
+2022/10/24 15:14:44 [notice] 1#1: start worker process 22
+2022/10/24 15:20:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 15:20:11 [notice] 22#22: gracefully shutting down
+2022/10/24 15:20:11 [notice] 22#22: exiting
+2022/10/24 15:20:11 [notice] 21#21: gracefully shutting down
+2022/10/24 15:20:11 [notice] 22#22: exit
+2022/10/24 15:20:11 [notice] 21#21: exiting
+2022/10/24 15:20:11 [notice] 21#21: exit
+2022/10/24 15:20:11 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/24 15:20:11 [notice] 1#1: worker process 22 exited with code 0
+2022/10/24 15:20:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 15:20:11 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/24 15:20:11 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 15:20:11 [notice] 1#1: exit
+2022/10/24 15:20:48 [notice] 1#1: using the "epoll" event method
+2022/10/24 15:20:48 [notice] 1#1: nginx/1.23.2
+2022/10/24 15:20:48 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 15:20:48 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 15:20:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 15:20:48 [notice] 1#1: start worker processes
+2022/10/24 15:20:48 [notice] 1#1: start worker process 20
+2022/10/24 15:20:48 [notice] 1#1: start worker process 21
+2022/10/24 15:21:34 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:21:36 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:21:36 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:21:36 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:21:37 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:21:37 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:22:06 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:22:34 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:22:36 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:22:36 [error] 21#21: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:22:37 [error] 21#21: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:22:37 [error] 21#21: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:22:41 [error] 21#21: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:22:41 [error] 21#21: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:22:41 [error] 21#21: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:23:05 [error] 21#21: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:23:06 [error] 21#21: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:23:06 [error] 21#21: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:23:06 [error] 21#21: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:23:06 [error] 21#21: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:23:06 [error] 21#21: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.4:9000", host: "localhost:8000"
+2022/10/24 15:27:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 15:27:15 [notice] 20#20: gracefully shutting down
+2022/10/24 15:27:15 [notice] 21#21: gracefully shutting down
+2022/10/24 15:27:15 [notice] 21#21: exiting
+2022/10/24 15:27:15 [notice] 20#20: exiting
+2022/10/24 15:27:15 [notice] 21#21: exit
+2022/10/24 15:27:15 [notice] 20#20: exit
+2022/10/24 15:27:15 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/24 15:27:15 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 15:27:15 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 15:27:15 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/10/24 15:27:15 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 15:27:15 [notice] 1#1: exit
+2022/10/24 15:27:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/poc-docker-php.conf:33
+2022/10/24 15:30:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/poc-docker-php.conf:33
+2022/10/24 15:31:40 [notice] 1#1: using the "epoll" event method
+2022/10/24 15:31:40 [notice] 1#1: nginx/1.23.2
+2022/10/24 15:31:40 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 15:31:40 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 15:31:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 15:31:40 [notice] 1#1: start worker processes
+2022/10/24 15:31:40 [notice] 1#1: start worker process 22
+2022/10/24 15:31:40 [notice] 1#1: start worker process 23
+2022/10/24 15:49:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 15:49:04 [notice] 23#23: gracefully shutting down
+2022/10/24 15:49:04 [notice] 22#22: gracefully shutting down
+2022/10/24 15:49:04 [notice] 23#23: exiting
+2022/10/24 15:49:04 [notice] 22#22: exiting
+2022/10/24 15:49:04 [notice] 23#23: exit
+2022/10/24 15:49:04 [notice] 22#22: exit
+2022/10/24 15:49:04 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/24 15:49:04 [notice] 1#1: worker process 22 exited with code 0
+2022/10/24 15:49:04 [notice] 1#1: worker process 23 exited with code 0
+2022/10/24 15:49:04 [notice] 1#1: exit
+2022/10/24 15:50:38 [notice] 1#1: using the "epoll" event method
+2022/10/24 15:50:38 [notice] 1#1: nginx/1.23.2
+2022/10/24 15:50:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 15:50:38 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 15:50:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 15:50:38 [notice] 1#1: start worker processes
+2022/10/24 15:50:38 [notice] 1#1: start worker process 20
+2022/10/24 15:50:38 [notice] 1#1: start worker process 21
+2022/10/24 15:51:13 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 15:51:17 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 15:51:19 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 15:51:19 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 15:52:19 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 15:52:32 [error] 20#20: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 15:53:40 [error] 20#20: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.3:9000", host: "localhost:8000"
+2022/10/24 15:54:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 15:54:28 [notice] 21#21: gracefully shutting down
+2022/10/24 15:54:28 [notice] 21#21: exiting
+2022/10/24 15:54:28 [notice] 20#20: gracefully shutting down
+2022/10/24 15:54:28 [notice] 21#21: exit
+2022/10/24 15:54:28 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/24 15:54:28 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 15:54:28 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 15:57:00 [notice] 1#1: using the "epoll" event method
+2022/10/24 15:57:00 [notice] 1#1: nginx/1.23.2
+2022/10/24 15:57:00 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 15:57:00 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 15:57:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 15:57:00 [notice] 1#1: start worker processes
+2022/10/24 15:57:00 [notice] 1#1: start worker process 20
+2022/10/24 15:57:00 [notice] 1#1: start worker process 21
+2022/10/24 15:57:53 [error] 20#20: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 15:57:54 [error] 20#20: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 15:58:13 [error] 20#20: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 15:59:13 [error] 20#20: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.31.0.1, server: _, request: "GET /php/test.php HTTP/1.1", upstream: "fastcgi://172.31.0.5:9000", host: "localhost:8000"
+2022/10/24 16:03:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 16:03:14 [notice] 21#21: gracefully shutting down
+2022/10/24 16:03:14 [notice] 21#21: exiting
+2022/10/24 16:03:14 [notice] 20#20: gracefully shutting down
+2022/10/24 16:03:14 [notice] 20#20: exiting
+2022/10/24 16:03:14 [notice] 21#21: exit
+2022/10/24 16:03:14 [notice] 20#20: exit
+2022/10/24 16:03:14 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/24 16:03:14 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 16:03:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 16:03:14 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/10/24 16:03:14 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 16:03:14 [notice] 1#1: exit
+2022/10/24 16:04:22 [notice] 1#1: using the "epoll" event method
+2022/10/24 16:04:22 [notice] 1#1: nginx/1.23.2
+2022/10/24 16:04:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 16:04:22 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 16:04:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 16:04:22 [notice] 1#1: start worker processes
+2022/10/24 16:04:22 [notice] 1#1: start worker process 20
+2022/10/24 16:04:22 [notice] 1#1: start worker process 21
+2022/10/24 16:05:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 16:05:53 [notice] 21#21: gracefully shutting down
+2022/10/24 16:05:53 [notice] 20#20: gracefully shutting down
+2022/10/24 16:05:53 [notice] 20#20: exiting
+2022/10/24 16:05:53 [notice] 20#20: exit
+2022/10/24 16:05:53 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/10/24 16:05:53 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 16:05:53 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 16:09:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/poc-docker-php.conf:33
+2022/10/24 16:10:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/poc-docker-php.conf:33
+2022/10/24 16:12:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/poc-docker-php.conf:33
+2022/10/24 16:14:17 [notice] 1#1: using the "epoll" event method
+2022/10/24 16:14:17 [notice] 1#1: nginx/1.23.2
+2022/10/24 16:14:17 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 16:14:17 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 16:14:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 16:14:17 [notice] 1#1: start worker processes
+2022/10/24 16:14:17 [notice] 1#1: start worker process 22
+2022/10/24 16:14:17 [notice] 1#1: start worker process 23
+2022/10/24 16:15:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 16:15:29 [notice] 23#23: gracefully shutting down
+2022/10/24 16:15:29 [notice] 22#22: gracefully shutting down
+2022/10/24 16:15:29 [notice] 23#23: exiting
+2022/10/24 16:15:29 [notice] 22#22: exiting
+2022/10/24 16:15:29 [notice] 22#22: exit
+2022/10/24 16:15:29 [notice] 23#23: exit
+2022/10/24 16:15:29 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/24 16:15:29 [notice] 1#1: worker process 22 exited with code 0
+2022/10/24 16:15:29 [notice] 1#1: worker process 23 exited with code 0
+2022/10/24 16:15:29 [notice] 1#1: exit
+2022/10/24 16:15:55 [notice] 1#1: using the "epoll" event method
+2022/10/24 16:15:55 [notice] 1#1: nginx/1.23.2
+2022/10/24 16:15:55 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 16:15:55 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 16:15:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 16:15:55 [notice] 1#1: start worker processes
+2022/10/24 16:15:55 [notice] 1#1: start worker process 20
+2022/10/24 16:15:55 [notice] 1#1: start worker process 21
+2022/10/24 16:19:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 16:19:55 [notice] 20#20: gracefully shutting down
+2022/10/24 16:19:55 [notice] 20#20: exiting
+2022/10/24 16:19:55 [notice] 21#21: gracefully shutting down
+2022/10/24 16:19:55 [notice] 20#20: exit
+2022/10/24 16:19:55 [notice] 21#21: exiting
+2022/10/24 16:19:55 [notice] 21#21: exit
+2022/10/24 16:19:55 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/10/24 16:19:55 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 16:19:55 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 16:19:55 [notice] 1#1: exit
+2022/10/24 16:20:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/poc-docker-php.conf:33
+2022/10/24 16:21:47 [notice] 1#1: using the "epoll" event method
+2022/10/24 16:21:47 [notice] 1#1: nginx/1.23.2
+2022/10/24 16:21:47 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 16:21:47 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 16:21:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 16:21:47 [notice] 1#1: start worker processes
+2022/10/24 16:21:47 [notice] 1#1: start worker process 23
+2022/10/24 16:21:47 [notice] 1#1: start worker process 24
+2022/10/24 16:28:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 16:28:02 [notice] 23#23: gracefully shutting down
+2022/10/24 16:28:02 [notice] 23#23: exiting
+2022/10/24 16:28:02 [notice] 24#24: gracefully shutting down
+2022/10/24 16:28:02 [notice] 23#23: exit
+2022/10/24 16:28:02 [notice] 24#24: exiting
+2022/10/24 16:28:02 [notice] 24#24: exit
+2022/10/24 16:28:02 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/10/24 16:28:02 [notice] 1#1: worker process 23 exited with code 0
+2022/10/24 16:28:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 16:28:02 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/10/24 16:28:02 [notice] 1#1: worker process 24 exited with code 0
+2022/10/24 16:28:02 [notice] 1#1: exit
+2022/10/24 16:28:56 [notice] 1#1: using the "epoll" event method
+2022/10/24 16:28:56 [notice] 1#1: nginx/1.23.2
+2022/10/24 16:28:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 16:28:56 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 16:28:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 16:28:56 [notice] 1#1: start worker processes
+2022/10/24 16:28:56 [notice] 1#1: start worker process 20
+2022/10/24 16:28:56 [notice] 1#1: start worker process 21
+2022/10/24 16:29:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 16:29:58 [notice] 20#20: gracefully shutting down
+2022/10/24 16:29:58 [notice] 20#20: exiting
+2022/10/24 16:29:58 [notice] 21#21: gracefully shutting down
+2022/10/24 16:29:58 [notice] 20#20: exit
+2022/10/24 16:29:58 [notice] 21#21: exiting
+2022/10/24 16:29:58 [notice] 21#21: exit
+2022/10/24 16:29:58 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/10/24 16:29:58 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 16:29:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 16:29:58 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/24 16:29:58 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 16:29:58 [notice] 1#1: exit
+2022/10/24 16:30:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/poc-docker-php.conf:33
+2022/10/24 16:37:42 [notice] 1#1: using the "epoll" event method
+2022/10/24 16:37:42 [notice] 1#1: nginx/1.23.2
+2022/10/24 16:37:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 16:37:42 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 16:37:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 16:37:42 [notice] 1#1: start worker processes
+2022/10/24 16:37:42 [notice] 1#1: start worker process 20
+2022/10/24 16:37:42 [notice] 1#1: start worker process 21
+2022/10/24 16:38:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 16:38:23 [notice] 21#21: gracefully shutting down
+2022/10/24 16:38:23 [notice] 20#20: gracefully shutting down
+2022/10/24 16:38:23 [notice] 21#21: exiting
+2022/10/24 16:38:23 [notice] 20#20: exiting
+2022/10/24 16:38:23 [notice] 20#20: exit
+2022/10/24 16:38:23 [notice] 21#21: exit
+2022/10/24 16:38:23 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/10/24 16:38:23 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 16:38:23 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 16:38:23 [notice] 1#1: exit
+2022/10/24 16:38:47 [notice] 1#1: using the "epoll" event method
+2022/10/24 16:38:47 [notice] 1#1: nginx/1.23.2
+2022/10/24 16:38:47 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 16:38:47 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 16:38:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 16:38:47 [notice] 1#1: start worker processes
+2022/10/24 16:38:47 [notice] 1#1: start worker process 20
+2022/10/24 16:38:47 [notice] 1#1: start worker process 21
+2022/10/24 16:39:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 16:39:35 [notice] 21#21: gracefully shutting down
+2022/10/24 16:39:35 [notice] 20#20: gracefully shutting down
+2022/10/24 16:39:35 [notice] 21#21: exiting
+2022/10/24 16:39:35 [notice] 20#20: exiting
+2022/10/24 16:39:35 [notice] 21#21: exit
+2022/10/24 16:39:35 [notice] 20#20: exit
+2022/10/24 16:39:35 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/24 16:39:35 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 16:39:35 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 16:39:35 [notice] 1#1: exit
+2022/10/24 16:39:59 [notice] 1#1: using the "epoll" event method
+2022/10/24 16:39:59 [notice] 1#1: nginx/1.23.2
+2022/10/24 16:39:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 16:39:59 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 16:39:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 16:39:59 [notice] 1#1: start worker processes
+2022/10/24 16:39:59 [notice] 1#1: start worker process 19
+2022/10/24 16:39:59 [notice] 1#1: start worker process 20
+2022/10/24 16:43:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 16:43:59 [notice] 20#20: gracefully shutting down
+2022/10/24 16:43:59 [notice] 20#20: exiting
+2022/10/24 16:43:59 [notice] 19#19: gracefully shutting down
+2022/10/24 16:43:59 [notice] 19#19: exiting
+2022/10/24 16:43:59 [notice] 20#20: exit
+2022/10/24 16:43:59 [notice] 19#19: exit
+2022/10/24 16:43:59 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/10/24 16:43:59 [notice] 1#1: worker process 19 exited with code 0
+2022/10/24 16:43:59 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 16:43:59 [notice] 1#1: exit
+2022/10/24 16:44:49 [notice] 1#1: using the "epoll" event method
+2022/10/24 16:44:49 [notice] 1#1: nginx/1.23.2
+2022/10/24 16:44:49 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 16:44:49 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 16:44:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 16:44:49 [notice] 1#1: start worker processes
+2022/10/24 16:44:49 [notice] 1#1: start worker process 20
+2022/10/24 16:44:49 [notice] 1#1: start worker process 21
+2022/10/24 16:46:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 16:46:05 [notice] 21#21: gracefully shutting down
+2022/10/24 16:46:05 [notice] 20#20: gracefully shutting down
+2022/10/24 16:46:05 [notice] 21#21: exiting
+2022/10/24 16:46:05 [notice] 20#20: exiting
+2022/10/24 16:46:05 [notice] 20#20: exit
+2022/10/24 16:46:05 [notice] 21#21: exit
+2022/10/24 16:46:06 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/10/24 16:46:06 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 16:46:06 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 16:46:06 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/24 16:46:06 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 16:46:06 [notice] 1#1: exit
+2022/10/24 16:46:42 [notice] 1#1: using the "epoll" event method
+2022/10/24 16:46:42 [notice] 1#1: nginx/1.23.2
+2022/10/24 16:46:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 16:46:42 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 16:46:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 16:46:42 [notice] 1#1: start worker processes
+2022/10/24 16:46:42 [notice] 1#1: start worker process 20
+2022/10/24 16:46:42 [notice] 1#1: start worker process 21
+2022/10/24 16:47:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 16:47:42 [notice] 20#20: gracefully shutting down
+2022/10/24 16:47:42 [notice] 20#20: exiting
+2022/10/24 16:47:42 [notice] 21#21: gracefully shutting down
+2022/10/24 16:47:42 [notice] 20#20: exit
+2022/10/24 16:47:42 [notice] 21#21: exiting
+2022/10/24 16:47:42 [notice] 21#21: exit
+2022/10/24 16:47:42 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2022/10/24 16:47:42 [notice] 1#1: worker process 20 exited with code 0
+2022/10/24 16:47:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/24 16:47:42 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/10/24 16:47:42 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 16:47:42 [notice] 1#1: exit
+2022/10/24 16:48:06 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/poc-docker-php.conf:33
+2022/10/24 16:49:13 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/poc-docker-php.conf:33
+2022/10/24 16:51:51 [notice] 1#1: using the "epoll" event method
+2022/10/24 16:51:51 [notice] 1#1: nginx/1.23.2
+2022/10/24 16:51:51 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/24 16:51:51 [notice] 1#1: OS: Linux 4.19.121-linuxkit
+2022/10/24 16:51:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/24 16:51:51 [notice] 1#1: start worker processes
+2022/10/24 16:51:51 [notice] 1#1: start worker process 21
+2022/10/24 16:51:51 [notice] 1#1: start worker process 22
+2022/10/24 18:54:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/24 18:54:36 [notice] 22#22: gracefully shutting down
+2022/10/24 18:54:36 [notice] 22#22: exiting
+2022/10/24 18:54:36 [notice] 21#21: gracefully shutting down
+2022/10/24 18:54:36 [notice] 21#21: exiting
+2022/10/24 18:54:36 [notice] 22#22: exit
+2022/10/24 18:54:36 [notice] 21#21: exit
+2022/10/24 18:54:36 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/10/24 18:54:36 [notice] 1#1: worker process 21 exited with code 0
+2022/10/24 18:54:36 [notice] 1#1: worker process 22 exited with code 0
+2022/10/24 18:54:36 [notice] 1#1: exit
