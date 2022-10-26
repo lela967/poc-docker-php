@@ -48,7 +48,6 @@ services:
 
   php:
     container_name: ${PROJECT_NAME}_php
-    # image: php:7.3.1-fpm
     build:
       context: ./conf/php-fpm
       dockerfile: Dockerfile
@@ -60,8 +59,8 @@ services:
 #    restart: always
     networks:
       - backend
-    tty: true
-    command: bash
+    # tty: true
+    # command: bash
     # entrypoint: php7.4-fpm -F -R
     working_dir: /var/www/html
 
@@ -143,8 +142,12 @@ services:
         - "9443:9443"
     #restart: always
 
+
+
 volumes:
     portainer_data:
+
+
 
 networks:
   frontend:

@@ -1,16 +1,16 @@
-##
-# Dockerfile for PHP-8.1-FPM
-##
+## ---------------------------- #
+#                               #
+#   Dockerfile for PHP-7.4-FPM  #
+#                               #
+## ---------------------------- #
 
 # Pull base image.
 FROM debian:bullseye
-
 
 # Maintainer
 MAINTAINER LELA <lela@lela.net>
 
 RUN apt-get -y update
-
 
 # Install some packages
 RUN apt-get install -y \
@@ -19,11 +19,9 @@ RUN apt-get install -y \
     wget \
     vim
 
-
 # Add sury DEB Repository
 #RUN cd /tmp
 #RUN curl -sSL https://packages.sury.org/php/README.txt | bash -x
-
 
 # Install PHP7.4
 RUN apt-get install -y \
@@ -36,23 +34,14 @@ RUN apt-get install -y \
     php7.4-xml \
     composer
 
-
 # Custom apache2 configuration
 COPY conf.d/poc-docker-php.conf /etc/php/7.4/fpm/pool.d/poc-docker-php.conf
 
-
-
-#RUN update-rc.d php7.4-fpm defaults
-#RUN /usr/sbin/service php7.4-fpm start
-#/usr/sbin/php-fpm7.4 --fpm-config /etc/php/7.4/fpm/php-fpm.conf
-#CMD [ "service", "php7.4-fpm", "start" ]
-#CMD ["/etc/init.d/php7.4-fpm", "start"]
-
-
+# Create directory for PHP-FPM .pid file
+mkdir -p /run/php
 
 # Expose ourselves
 EXPOSE 9000
 
 # Run!
-#ENTRYPOINT [ "/usr/sbin/php-fpm7.4", "--fpm-config", "/etc/php/7.4/fpm/php-fpm.conf" ]
-#ENTRYPOINT [ "bash" ]
+ENTRYPOINT [ "/usr/sbin/php-fpm7.4", "-F", "-R" ]
