@@ -53,7 +53,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ${WWW_PATH}:/var/www/html
-      - /sys/fs/cgroup:/sys/fs/cgroup:ro
     expose:
       - 9000
 #    restart: always
