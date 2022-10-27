@@ -38,7 +38,7 @@ RUN apt-get install -y \
 COPY conf.d/poc-docker-php.conf /etc/php/7.4/fpm/pool.d/poc-docker-php.conf
 
 # Create directory for PHP-FPM .pid file
-mkdir -p /run/php
+RUN mkdir -p /run/php
 
 # Expose ourselves
 EXPOSE 9000
